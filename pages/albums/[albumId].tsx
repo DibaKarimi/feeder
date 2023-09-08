@@ -19,5 +19,6 @@ export async function getServerSideProps(context: any) {
         // notFound: true,
         redirect: { destination: "/albums" },
     }
+    
     return { props: { album: data }, }
 }
